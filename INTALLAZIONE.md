@@ -66,6 +66,6 @@ Aggiungere il comando
 
     fortune ~/sub_dir/italia ~/sub_dir/zozzital
 
-al proprio file "~/.bash_profile" (se si usa la "bash" come shell di login) od a "~/.login" (se si usa la "csh", "tcsh" o derivate come shell di login), avendo cura di eliminare dai suddetti file la precedente chiamata "fortune". Se il file di inizializzazione corrispondente alla vostra shell di login non esiste, andra' creato, copiandolo da quello di sistema comune per tutti gli utenti, eseguito di default ("/etc/profile" o "/etc/login" rispettivamente). (Se utilizzate una shell di login qui non menzionata, fate riferimento al suo manuale "man nome_shell" oppure "info nome_shell" per sapere i(l) file di inizializzazione.)
+al proprio file "\~/.bash_profile" (se si usa la "bash" come shell di login) od a "\~/.login" (se si usa la "csh", "tcsh" o derivate come shell di login), avendo cura di eliminare dai suddetti file la precedente chiamata "fortune". Se il file di inizializzazione corrispondente alla vostra shell di login non esiste, andra' creato, copiandolo da quello di sistema comune per tutti gli utenti, eseguito di default ("/etc/profile" o "/etc/login" rispettivamente). (Se utilizzate una shell di login qui non menzionata, fate riferimento al suo manuale "man nome_shell" oppure "info nome_shell" per sapere i(l) file di inizializzazione.)
 
 Finito! Rimuovere fortune.it-xxx.tar.gz e la directory fortune.it-xxx . 
