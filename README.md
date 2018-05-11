@@ -22,3 +22,23 @@ A proposito di licenza: dal file *COPYING* del package originale (che consiglio 
 Per il futuro vorrei che questa mia idea portasse il pacchetto a crescere e attualizzarsi costantemente.
 
 Mi piacerebbe anche che fungesse da "spinta" per la realizzazione di nuovi player di *fortune* per varie piattaforme, magari in grado di *autoaggiornarsi* con le versioni, sempre più recenti, dei file di database che saranno qui pubblicati.
+
+## Come funziona? In poche parole
+
+Fortune e' un programma che estrae una frase a caso da un file. Esempio
+
+    fortune
+      
+     Dio ha creato i numeri interi; tutto il resto e' lavoro dell'Uomo. 
+     - Kronecker, matematico tedesco  
+
+Per aggiungere delle frasi, o eliminare altre, basta andare nella directory di fortune (di solito **/usr/share/fortune/** e vedere se e' presente una directory chiamata **"fortunes"**, se non c'e' createla. A questo punto spostate tutti i file di testo e .dat in quest'ultima directory appena creata.
+
+I file di testo contengono le frasi estratte a caso dal programma, ogni frase e' separata dal simbolo %. Per aggiungere una frase basta aggiungerlo in uno dei file di testo e similmente per cancellarlo basta eliminarlo. Ogni file modificato va indicizzato per essere utilizzato, e va usato il comando strfile, esempio:
+
+     strfile barzellette 
+
+Si possono usare piu' file di testo, poiche' e' possibile indicare a fortune se utlizzare solo una specifica lista, inoltre e' possibile unducare con che probabilita' deve esere scelto un file tra i vari file.
+
+     fortune 90% barzellette 10% barzellettesporche
+
