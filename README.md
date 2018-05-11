@@ -1,8 +1,6 @@
 # fortune-italia 
 **In breve:** questo repository vorrebbe essere una versione sempre aggiornata dalla comunità del database ufficiale dei fortune.
 
-Quindi attenzione: stiamo parlando solo del database e non dei player, che saranno dei progetti a parte.
-
 ## Breve storia
 
 Tutto iniziò con i *fortune*: si tratta dell'equivalente informatico dei biscottini della fortuna (approfondimenti alla [voce "Fortune" di Wikipedia](https://en.wikipedia.org/wiki/Fortune_%28Unix%29#Purpose)).
